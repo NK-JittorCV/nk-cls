@@ -10,7 +10,6 @@ from .helpers import build_model_with_cfg
 
 import numpy as np
 
-
 default_cfgs = {
     'p2t_tiny': _cfg(url='https://github.com/yuhuan-wu/P2T/releases/download/v1.0/p2t_tiny.pth'),
     'p2t_small': _cfg(url='https://github.com/yuhuan-wu/P2T/releases/download/v1.0/p2t_small.pth'),

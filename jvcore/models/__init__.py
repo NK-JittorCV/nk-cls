@@ -7,3 +7,4 @@ from .van import *
 from .res2net import *
 from .p2t import *
 from .factory import create_model
+from .conv2former import *

@@ -6,7 +6,6 @@ from .registry import register_model
 from .resnet import _cfg
 from .helpers import build_model_with_cfg
 
-
 default_cfgs = {
     'res2net50': _cfg(url='https://shanghuagao.oss-cn-beijing.aliyuncs.com/res2net/res2net50_26w_4s-06e79181.pth'),
     'res2net50_26w_4s': _cfg(url='https://shanghuagao.oss-cn-beijing.aliyuncs.com/res2net/res2net50_26w_4s-06e79181.pth'),
@@ -16,7 +15,6 @@ default_cfgs = {
     'res2net50_26w_8s': _cfg(url='https://shanghuagao.oss-cn-beijing.aliyuncs.com/res2net/res2net50_26w_8s-2c7c9f12.pth'),
     'res2net101_26w_4s': _cfg(url='https://shanghuagao.oss-cn-beijing.aliyuncs.com/res2net/res2net101_26w_4s-02a759a1.pth'),
 }
-
 
 class Bottle2neck(nn.Module):
     expansion = 4
